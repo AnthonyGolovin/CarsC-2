@@ -46,7 +46,7 @@ namespace Dealership.Models
     }
     public static string MakeSound (string sound)
     {
-      return "our cars sound like " + sound;
+      return "Our cars sound like " + sound;
     }
   }
 }

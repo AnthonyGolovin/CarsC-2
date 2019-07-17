@@ -38,6 +38,7 @@ namespace Dealership.Models {
         Console.WriteLine(generic.GetMiles() + " miles");
         Console.WriteLine("$" + generic.GetPrice());
         Console.WriteLine("Drives "+ generic.GetDrivesLike());
+        Console.WriteLine(Car.MakeSound("Bang"));
       }
     }
   }
